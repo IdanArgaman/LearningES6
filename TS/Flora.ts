@@ -1,0 +1,9 @@
+
+class Flora{
+  constructor(){
+  }
+
+  say(){
+
+  }
+}
