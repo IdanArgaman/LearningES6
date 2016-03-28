@@ -12,7 +12,7 @@ function testStaging2() {
 }
 
 function f1() {
-
+  console.log("alex");
 }
 
 testStaging();
