@@ -1,7 +1,7 @@
 {
-  let _nested = 'secret'
+  let _value = 'secret'
   function nested () {
-    return _nested
+    return _value;
   }
 }
 
