@@ -1,0 +1,21 @@
+// True private with weak maps
+
+let my_private = new WeakMap();
+
+class MyClas{
+    constructor(){
+        this.setPrivate("something");
+    }
+ 
+    getPrivate(){
+        return my_private.get(this);      //"something"
+    }
+
+    setPrivate(val){
+        my_private.set(this, val);        // Note that "this" is the key for the private value.
+                                          // Because we are using weak map the object can be released
+                                          // without the worry of memory leaking!
+    }
+}
+ 
+module.exports = MyClass;
