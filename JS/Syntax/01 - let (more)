@@ -1,0 +1,10 @@
+{
+  let _nested = 'secret'
+  function nested () {
+    return _nested
+  }
+}
+
+// ---------- Works in ES5 but it’s broken in ES6
+
+console.log(nested())   // nested is not defined
