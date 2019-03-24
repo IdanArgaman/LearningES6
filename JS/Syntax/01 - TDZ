@@ -1,3 +1,8 @@
+/*
+The whole point of the TDZ is to make it easier to catch errors where accessing a variable before it’s 
+declared in user code leads to unexpected behavior
+*/
+
 there = 'far away'
 // <- ReferenceError: there is not defined
 let there = 'dragons'
