@@ -76,7 +76,7 @@ console.log('%c --- Default Values --- ', 'color: blue; font-weight:bold; backgr
         y = 6;
         foo2( undefined, 10 ); // 9 10 - Note that we've provided a value for z so the 'bar' expression won't be called
 
-        // TDZ
+        // TDZ - Temporal Dead Zone
 
         /////////////////////////////////////////////////////////////////////////////////////////////
         // ES6 has a TDZ which prevents a variable from being accessed in its uninitialized state! //
